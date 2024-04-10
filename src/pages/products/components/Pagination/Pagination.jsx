@@ -10,11 +10,9 @@ export const Pagination = ({ currentPage, setActivePage }) => {
       <BPagination.Item
         onClick={() => setActivePage(number)}
         key={number}
-        active={number === currentPage} 
+        active={number === currentPage}
       >
-        
         {number}
-        
       </BPagination.Item>,
     );
   }

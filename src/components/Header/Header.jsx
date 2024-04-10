@@ -34,25 +34,24 @@ export const Header = () => {
             }
           >
             <li>
-            <Link className="header-link" to={ROUTE_NAMES.PRODUCTS}>
-              products
-            </Link>
+              <Link className="header-link" to={ROUTE_NAMES.PRODUCTS}>
+                products
+              </Link>
             </li>
 
             <li>
-            <Link className="header-link" to={ROUTE_NAMES.ORDERS}>
-              orders
-            </Link>
+              <Link className="header-link" to={ROUTE_NAMES.ORDERS}>
+                orders
+              </Link>
             </li>
 
             <li>
-            <Link className="header-link" to={ROUTE_NAMES.ACCOUNT}>
-              account
-            </Link>
+              <Link className="header-link" to={ROUTE_NAMES.ACCOUNT}>
+                account
+              </Link>
             </li>
 
             <li>
-            
               <Link className="header-cart" to={ROUTE_NAMES.CART}>
                 <Badge className="header-cart-badge" bg="primary">
                   {quantity}
@@ -62,20 +61,14 @@ export const Header = () => {
               </Link>
             </li>
             <li>
-              
               <Button variant={'link'} onClick={() => dispatch(logout())}>
-                  <IoExitOutline size={27} className="header-link-exit" />
+                <IoExitOutline size={27} className="header-link-exit" />
               </Button>
             </li>
-            
-            
-            
           </ul>
           <div onClick={() => setNav(!nav)} className={style.mobile_btn}>
-              {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+            {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
           </div>
-
-          
         </div>
       </div>
     </header>

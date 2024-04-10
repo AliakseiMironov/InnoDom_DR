@@ -42,7 +42,6 @@
     z-index: 10;
   }
 
-
   .menu {
     display: flex;
     flex-direction: column;
@@ -58,11 +57,9 @@
     background-color: #f8f8f8;
     z-index: 10;
     transition: left 1s;
-    
   }
 
   .active {
     left: 0;
   }
-
 }
