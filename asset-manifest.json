@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/InnoDom_DR/static/css/main.b336d7eb.css",
+    "main.js": "/InnoDom_DR/static/js/main.4394edfb.js",
+    "index.html": "/InnoDom_DR/index.html",
+    "main.b336d7eb.css.map": "/InnoDom_DR/static/css/main.b336d7eb.css.map",
+    "main.4394edfb.js.map": "/InnoDom_DR/static/js/main.4394edfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b336d7eb.css",
+    "static/js/main.4394edfb.js"
+  ]
+}
